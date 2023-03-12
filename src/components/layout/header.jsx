@@ -17,7 +17,7 @@ const Header = (props) => {
               <a href='#Fruit'>Fruit</a>
             </li>
             <li><a href="#Vegetable">Vegetable</a></li>
-            <li><HeaderCartButton /></li>
+            <li><HeaderCartButton onClick={props.onShowCart} /></li>
           </ul>
         </nav>
       </header>
