@@ -11,12 +11,12 @@ const Header = (props) => {
         <nav>
           <ul>
             <li>
-              <a href='#Meal'>Meal</a>
+              <a href='#Meals'>Meal</a>
             </li>
             <li>
-              <a href='#Fruit'>Fruit</a>
+              <a href='#Fruits'>Fruit</a>
             </li>
-            <li><a href="#Vegetable">Vegetable</a></li>
+            <li><a href="#Vegetables">Vegetable</a></li>
             <li><HeaderCartButton onClick={props.onShowCart} /></li>
           </ul>
         </nav>

@@ -35,13 +35,14 @@ const AvailableVegetables = () => {
   const carrotList = DUMMY_MEALS.map(carrot =>
     <FoodItem
       key={carrot.id}
+      id={carrot.id}
       name={carrot.name}
       description={carrot.description}
       price={carrot.price}
     />)
 
-  return <section id="Meals" className={classes.meals}>
-    <Title id={"Vegetable"} title="Vegetable" />
+  return <section className={classes.meals}>
+    <Title ids="Vegetables" title="Vegetable" />
     <Card>
       <ul>{carrotList}</ul>
     </Card>
